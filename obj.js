@@ -30,3 +30,6 @@ function carro2 (marca, precoInicial) {
 }
 
 const toyota = new carro2('Toyota', 5000)
+
+//this Keyword
+//o this se refere ao próprio objeto construído com a construction function
