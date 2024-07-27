@@ -47,3 +47,18 @@ function dom (elemento) {
 
 const listaItens = new dom('li')
 listaItens.addClasse('ativar')
+
+//criar uma função construtora de Pessoas com nome, sobrenome  e idade
+function pessoa(nome, sobrenome, idade) {
+    this.nome = nome
+    this.sobrenome = sobrenome
+    this.idade = idade
+}
+
+pessoa.prototype.nomeCompleto = function () {
+    return this.nome + this.sobrenome
+}
+
+const gloria = new pessoa('ana gloria', 'parente', 21)
+console.log(gloria)
+console.log(pessoa.prototype)

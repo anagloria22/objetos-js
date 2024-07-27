@@ -1,4 +1,4 @@
-//prototype é um objeto adicionado a uma função quando a mesma é criada
+//prototype é um objeto adicionado a uma função quando a ela é criada
 function pessoa (nome, idade) {
     this.nome = nome
     this.idade = idade
@@ -27,3 +27,7 @@ const listaArray2 = Array.from(lista) //é uma forma mais rápida e está linkad
 
 Object.getOwnPropertyNames(Array) //vai retornar uma lista com os métodos/propriedades
 //dado.constructor.name retorna o nome do construtor
+
+
+
+//NATIVE, HOST E USER(tipo de objetos)
